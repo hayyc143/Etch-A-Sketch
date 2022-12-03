@@ -45,17 +45,17 @@ h1{
 
 }
 
-.clearBtn{
+.clearBtn, .colorPicker, .blackBtn{
     background-color: aliceblue;
     padding: 5px 50px; 
     font-family: 'Permanent Marker', cursive;
     font-size: 20px; 
-    margin-bottom: 100px; 
+    margin-bottom: 50px; 
 
     
 }
 
-.clearBtn:hover{
+.clearBtn:hover, .colorPicker:hover, .blackBtn:hover{
     cursor: pointer;
     color: aliceblue; 
     background-color: black;
