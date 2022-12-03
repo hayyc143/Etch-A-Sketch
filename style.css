@@ -1,0 +1,68 @@
+body{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Permanent Marker', cursive;
+}
+
+:root{
+    --rows: 16; 
+}
+
+h1{
+    font-size: 50px;
+    text-align: center; 
+}
+
+.container{
+    border-style: solid; 
+    display: grid;
+    width: 400px; 
+    height: 400px; 
+   margin-left: auto;
+   margin-right: auto;
+   grid-template-columns: repeat(var(--rows), 1fr);
+   grid-template-rows: repeat(var(--rows), 1fr);
+   overflow: hidden;
+}
+
+.cell{
+    border-style: solid; 
+    border-color: black;
+    border-width: thin;
+    
+}
+
+
+.buttons{
+    display: flex; 
+    flex-direction: column;
+    width: 200px; 
+    position: absolute;
+    top: 25%;
+    margin-left: 100px; 
+    float: right;
+
+}
+
+.clearBtn{
+    background-color: aliceblue;
+    padding: 5px 50px; 
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px; 
+    margin-bottom: 100px; 
+
+    
+}
+
+.clearBtn:hover{
+    cursor: pointer;
+    color: aliceblue; 
+    background-color: black;
+
+} 
+
+p{
+    text-align: center;
+}
+
