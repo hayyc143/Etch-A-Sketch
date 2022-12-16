@@ -5,6 +5,10 @@ body{
     font-family: 'Permanent Marker', cursive;
 }
 
+main{
+    display: flex; 
+}
+
 :root{
     --rows: 16; 
 }
@@ -38,10 +42,8 @@ h1{
     display: flex; 
     flex-direction: column;
     width: 200px; 
-    position: absolute;
-    top: 25%;
     margin-left: 100px; 
-    float: right;
+
 
 }
 
@@ -66,3 +68,15 @@ p{
     text-align: center;
 }
 
+
+@media screen and (max-width: 720px) {
+    main{
+
+        flex-direction: column;
+    }
+
+    .buttons-div{
+        display: flex; 
+        justify-content: center;
+    }
+}
