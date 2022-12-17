@@ -57,10 +57,3 @@ clearBtn.addEventListener('click', () => {
 
 })
 
-
-
-
-
-// Slider displays value when it is moved
-// when slider is moved, event listener changes the size of the grid to the value input 
-// the value of --rows needs to be set to the grid value input 
