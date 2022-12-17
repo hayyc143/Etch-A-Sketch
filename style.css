@@ -71,12 +71,13 @@ p{
 
 @media screen and (max-width: 480px) {
     main{
-
         flex-direction: column;
+        justify-items: center;
     }
 
     .buttons-div{
         display: flex; 
         justify-content: center;
+        width: 150px; 
     }
 }
