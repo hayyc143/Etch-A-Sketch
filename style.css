@@ -68,11 +68,12 @@ p{
     text-align: center;
 }
 
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
     main{
+        display: flex; 
         flex-direction: column;
-        justify-items: center;
+        align-items: center;
+        justify-content: center;
     }
 
     .buttons-div{
@@ -82,3 +83,4 @@ p{
         margin: 10px; 
     }
 }
+
